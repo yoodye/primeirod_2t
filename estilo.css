@@ -63,3 +63,19 @@ li a:hover {
   background: rgb(157, 74, 212);
   color: #FFFFFF;
 }
+#aviao {
+  width: 20%;
+}
+.caixaAviao {
+  position: absolute;
+  top: 50px;
+  left: 0;
+  width: 90%;
+  height: 150px;
+  background:rgb(242, 242, 239);
+  margin: 20px;
+  border-color: rgb(91, 210, 208);
+  border-width: 20px;
+  border-style: solid;
+  padding: 20px;
+}
