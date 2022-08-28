@@ -6,46 +6,69 @@ h1 {
 }
 .caixa1 {
     position: absolute;
-    background: #0B615E;
+    background: #0B2161;
     color: #FFFFFF;
-    width: 200px;
-    height: 200px;
+    width: 40px;
+    height: 40px;
     right: 0;
     bottom: 0;
 }
 
 .caixa2 {
     position: absolute;
-    background: #088A85;
+    background: #240B3B;
     color: #FFFFFF;
-    width: 200px;
-    height: 200px;
-    right: 205px;
+    width: 40px;
+    height: 40px;
+    right: 44px;
     bottom: 0;
 }
 
 .caixa3 {
     position: absolute;
-    background: #0B2F3A;
+    background: #380B61;
     color: #FFFFFF;
-    width: 200px;
-    height: 200px;
+    width: 40px;
+    height: 40px;
     right: 0;
-    bottom: 205px;
+    bottom: 44px;
 }
+
+.caixa4 {
+  position: absolute;
+  background: #08298A;
+  color: #FFFFFF;
+  width: 40px;
+  height: 40px;
+  right: 44px;
+  top: 44px;
+  }
+  
+  .caixa5 {
+  position: absolute;
+  background: rgb(0, 0, 0);
+  color: #FFFFFF;
+  width: 40px;
+  height: 40px;
+  right: 22px;
+  top: 22px;
+  }
 .menuPrincipal {
-  position: relative;
-  background: #81F7F3;
+  position: absolute;
+  background: #3104B4;
   width: 100%;
   height: 45px;
   top: 0;
   left: 0;
-  color: #FFFFFF;
+  color: black;
+  display: flex;
+  justify-content: start;
+  text-transform: uppercase;
 }
 nav ul{
   list-style-type: none;
-  margin: 0%;
-  padding: 0%;
+  margin: 0;
+  padding: 0;
   overflow: 0;
 }
 li{
@@ -57,7 +80,7 @@ li a{
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: 'Courier New', Courier, monospace;
 }
 li a:hover {
   background: rgb(157, 74, 212);
@@ -65,6 +88,9 @@ li a:hover {
 }
 #aviao {
   width: 20%;
+}
+#aviao:hover {
+  width: 22%;
 }
 .caixaAviao {
   position: absolute;
@@ -78,4 +104,23 @@ li a:hover {
   border-width: 20px;
   border-style: solid;
   padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+.rodape {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 50px;
+  background: black;
+  color: blanchedalmond;
+  display: flex;
+  justify-content: center;
+  font-size: 20px;
+  left: 0;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.conteudo {
+  position: absolute;
+  top: 45px;
 }
